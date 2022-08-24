@@ -31,6 +31,15 @@ import {filterImageFromURL, deleteLocalFiles} from './util/util';
 
 Follow the process described in the course to `eb init` a new application and `eb create` a new environment to deploy your image-filter service! Don't forget you can use `eb deploy` to push changes.
 
+## My submission
+### The endopoint URL
+http://udacity-c2-image-filter-dev.us-east-1.elasticbeanstalk.com/filteredimage?image_url=https://www.cdc.gov/healthypets/images/pets/cute-dog-headshot.jpg
+
+Note: I didn't use the image URL written in the project rubric because it caused an error. ("Could not find MIME for Buffer \<null>")
+
+### Screenshot
+![screenshot](deployment_screenshots/my-screenshot.png)
+
 ## Stand Out (Optional)
 
 ### Refactor the course RESTapi
